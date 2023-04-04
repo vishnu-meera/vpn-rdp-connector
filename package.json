@@ -1,0 +1,21 @@
+{
+  "name": "vpn-rdp-connector",
+  "version": "1.0.0",
+  "description": "A Node.js package for connecting to a VPN and starting an RDP session.",
+  "main": "index.js",
+  "bin": {
+    "vpn": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vpn",
+    "rdp"
+  ],
+  "author": "vishgitt@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2"
+  }
+}
